@@ -201,10 +201,10 @@ drag_at_mach_multiplier_curve = SubResource("Curve_1143d")
 
 [sub_resource type="Resource" id="Resource_ge450"]
 script = ExtResource("9_cenmu")
-chord = 0.03
+chord = 0.030000000000000002
 span = 0.115
-area = 0.00345
-aspect_ratio = 3.8333333333333335
+area = 0.0034500000000000004
+aspect_ratio = 3.833333333333333
 
 [sub_resource type="Resource" id="Resource_im7wy"]
 resource_name = "throttle"
@@ -226,7 +226,7 @@ can_sleep = false
 linear_damp_mode = 1
 angular_damp_mode = 1
 script = ExtResource("1_ojlhn")
-substeps_override = 4
+substeps_override = 16
 show_debug = true
 debug_scale = 0.01
 debug_width = 0.01
